@@ -20,8 +20,13 @@ body {
 	background-color: rgba(255,255,255, 0.7) !important;
 }
 .text-box {
-	background-color: rgba(255,255,255, 0.5); border-radius: 10px;
-	backdrop-filter: blur(10px);
+	background-color: rgba(255,255,255, 0.5); 
+	border-radius: 10px;
+	/* backdrop-filter: blur(10px); */ */
+}
+.text-box:hover {
+	background-color: rgba(255,255,255, 0); 
+
 }
 
 /* Description: Master CSS file */
@@ -885,6 +890,7 @@ input[type='checkbox'] {
 	padding-bottom: 2rem;
 	background-color: #24262a;
 	text-align: center;
+	backdrop-filter: blur(10px); background-color: rgba(36,38,42, 0.9) !important;
 }
 
 .footer a {
@@ -949,13 +955,13 @@ a.back-to-top {
 	width: 42px;
 	height: 42px;
 	border-radius: 30px;
-	background: #3a424d url("../images/up-arrow.png") no-repeat center 47%;
+	background: #F07CB0 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 18px 18px;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #0b36a8;
+	background-color: #C992E7;
 }
 
 
